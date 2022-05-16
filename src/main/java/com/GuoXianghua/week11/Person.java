@@ -3,6 +3,8 @@ package com.GuoXianghua.week11;
 public class Person {
     private String name;
 
+    private String Sex;
+
     private Dog dog;
 
     public String getName() {
@@ -11,6 +13,14 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getSex() {
+        return Sex;
+    }
+
+    public void setSex(String Sex) {
+        this.Sex = Sex;
     }
 
     public Dog getDog() {
