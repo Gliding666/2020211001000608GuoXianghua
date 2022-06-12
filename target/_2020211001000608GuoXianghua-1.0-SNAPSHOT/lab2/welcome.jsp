@@ -5,6 +5,7 @@
         <title>Welcome</title>
     </head>
     <body>
+    <h3><span style="color: red">Author:2020211001000608-GuoXianghua</span></h3>
         <h2>Welcome,
             <%--todo 9 : use jsp:useBean to access the same instance of login bean from request scope--%>
             <jsp:useBean id="Login" class="com.GuoXianghua.lab2.Login" scope="request" />

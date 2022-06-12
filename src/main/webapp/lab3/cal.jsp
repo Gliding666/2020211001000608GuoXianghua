@@ -5,6 +5,7 @@
     <title>cal</title>
 </head>
 <body>
+<h2><span style="color: red">Author:2020211001000608-GuoXianghua</span></h2>
 <form id="myForm" action="${pageContext.request.contextPath}/CalServlet" method="post">
     First val: <input id="firstVal" type="text" name="firstVal" value="${cookie.cFirstValue.value}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     Enter a name：<input id="enterName" type="text" name="name" value="${cookie.cName.value}"><br>

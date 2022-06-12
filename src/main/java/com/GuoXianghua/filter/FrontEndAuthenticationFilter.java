@@ -10,7 +10,7 @@ import java.io.IOException;
 public class FrontEndAuthenticationFilter implements Filter {
     private HttpServletRequest httpRequest=null;
     public static final String[] loginRequiredURLs={"/updateUser","/logout","/cart",
-    	"/accountDetails","/order"};//url which need login
+            "/accountDetails","/order"};//url which need login
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 
@@ -51,9 +51,9 @@ public class FrontEndAuthenticationFilter implements Filter {
         }
 
     }
-/*
-method for check requested url need login
- */
+    /*
+    method for check requested url need login
+     */
     private boolean isLoginRequired() {
         //update 1 url not uri
         String requestURI = httpRequest.getRequestURI().toString();//get url
